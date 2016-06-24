@@ -308,8 +308,9 @@ display:inline-block;
   font-weight: 100;
 }
 
-.title-companies p{
-  text-align: center;
-  font-size: 40px;
-  font-weight: 200;
+/*Venue*/
+.title-venue h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #32EBC4;
 }
