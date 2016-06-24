@@ -54,8 +54,9 @@ table {
 */
 
 body {
-  color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color:#4D797D;
+  color: #DCE8EB
 }
 
 /*
@@ -164,11 +165,11 @@ em {
 */
 
 a {
-  color: #648880;
+  color: #fff;
   text-decoration: none;
 }
 a:hover {
-  color: #a9b2b9;
+  color: #32EBC4;
 }
 p a {
   border-bottom: 1px solid #dfe2e5;
@@ -184,37 +185,36 @@ p a {
   border-radius: 5px;
   display: inline-block;
   margin: 0;
+  border-color: #32EBC4;
 }
 .btn-alt {
   border: 1px solid #dfe2e5;
   padding: 10px 30px;
+  margin: 10px 30px;
 }
 
-/*
-  ========================================
-  Primary header
-  ========================================
-*/
-
+/*Header*/
 .logo {
-  border-top: 4px solid #648880;
-  float: left;
-  font-size: 48px;
-  font-weight: 100;
-  letter-spacing: .5px;
+  float:left;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: .6px;
   line-height: 44px;
   padding: 40px 0 22px 0;
   text-transform: uppercase;
 }
 .tagline {
+  font-size: 30px;
   margin: 66px 0 22px 0;
   text-align: right;
+  color: #32EBC4;
 }
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
+
 }
 
 /*
@@ -239,9 +239,26 @@ p a {
   Navigation
   ========================================
 */
+.btn{
+font-size: 15px;
+font-weight: bold;
+text-align: center;
+color: #fff;
+display:inline-block;
+}
+
+.btn-alt{
+  border: 3px solid #fff;
+  padding: 10px 30px;
+}
+
+
+
 
 .nav {
-  text-align: right;
+  margin-right: 20px;
+  padding-right: 15px;
+  text-align:center;
 }
 
 /*
