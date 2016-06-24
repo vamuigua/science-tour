@@ -235,11 +235,7 @@ display:inline-block;
   text-align:center;
 }
 
-/*
-  ========================================
-  Home
-  ========================================
-*/
+/*Main*/
 
 .main {
   line-height: 44px;
@@ -256,6 +252,40 @@ display:inline-block;
   font-size: 25px;
   font-weight: 100;
 }
-.teaser a:hover h3 {
-  color: #a9b2b9;
+
+/*Teasers*/
+.title-companies h3{
+  color: #32EBC4;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.title-companies p{
+  color: #fff;
+  font-size: 20px;
+}
+
+.title-venue h3{
+  color: #32EBC4;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.title-venue p{
+  color: #fff;
+  font-size: 20px;
+}
+
+.title-schedule h3{
+  color: #32EBC4;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.title-schedule p{
+  color: #fff;
+  font-size: 20px;
 }
